@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futbol Dünyası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #27ae60;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #2c3e50;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            background: #27ae60;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .news {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .news-item {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            width: 48%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Futbol Dünyası</header>
+    <nav>
+        <a href="#">Ana Sayfa</a>
+        <a href="#">Haberler</a>
+        <a href="#">Maç Sonuçları</a>
+        <a href="#">İstatistikler</a>
+        <a href="#">İletişim</a>
+    </nav>
+    <div class="container">
+        <h2>Güncel Futbol Haberleri</h2>
+        <div class="news">
+            <div class="news-item">
+                <h3>Son Dakika Transfer Gelişmeleri</h3>
+                <p>Avrupa ve Türkiye liglerinde en yeni transfer haberleri burada!</p>
+            </div>
+            <div class="news-item">
+                <h3>Şampiyonlar Ligi Heyecanı</h3>
+                <p>Son 16 turu eşleşmeleri ve maç analizleri.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Futbol Dünyası | Tüm Hakları Saklıdır
+    </footer>
+</body>
+</html>
